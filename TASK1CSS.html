@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 1</title>
+    <style>
+        th,td{
+            border-radius: 30px;
+        }
+        .rbox{
+            border-radius: 10px;
+        }
+        .circle{
+            border-radius: 100px;
+        }
+        .box{
+            border-radius: 0px;
+        }
+        .shape{
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div >
+        <table style="margin-left:100px ; margin-right:100px ;margin-top: 100px;" border-radius: "10px" border="1" bgcolor="#8ADBD3" cellspacing="1" width="1000" height="10" cellpadding="0">
+        
+            <tr>
+                <th style="text-align: center" ><b>Firstname</b></th>
+                <th style="text-align: center" ><b>Lastname</b></th>
+                <th style="text-align: center" ><b>Age</b></th>
+            </tr>
+            <tr >
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+            <tr >
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+            <tr >
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table style="margin-left:100px ; margin-right:100px ;margin-top: 100px;" border-radius: "10px" border="1" bgcolor="#8ADBD3" cellspacing="1" width="1000" height="10" cellpadding="0">
+        
+            <tr >
+                <th style="text-align: center" ><b>Firstname</b></th>
+                <th style="text-align: center" ><b>Lastname</b></th>
+                <th style="text-align: center" ><b>Age</b></th>
+            </tr>
+            <tr >
+                <td class="rbox">Jill</td>
+                <td class="rbox">Smith</td>
+                <td>50</td>
+            </tr>
+            <tr >
+                <td class="rbox">Eve</td>
+                <td class="box">Jackson</td>
+                <td>94</td>
+            </tr>
+            <tr >
+                <td class="circle">John</td>
+                <td class="box">Doe</td>
+                <td class="shape">80</td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
