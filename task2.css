@@ -1,0 +1,33 @@
+li{
+    list-style-type: none;
+    color: #0920b3;
+    background-color: rgb(121, 205, 205);
+    background-position: left;
+    padding: 5px 0px;
+}
+
+li a.active {
+    background-color:orange ;
+    background-size: auto;
+    padding: 5px 66px 5px 15px ;
+    color: white;
+}
+
+a{
+    color: #0920b3;
+    text-decoration: none;
+    padding: 10px ;
+}
+
+.hor{
+    color: #0920b3;
+    background-color:rgb(194, 192, 192);
+    padding: 8px 0px;
+}
+
+a.active {
+    background-color:rgb(79, 78, 75) ;
+    background-size: auto;
+    padding: 8px 12px;
+    color: white;
+}
